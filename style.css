@@ -56,3 +56,40 @@ select {
 .sign-logo:hover {
     background-color: red;
 }
+
+.home-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30vh;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.email {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #00000098;
+    color: #fff;
+}
+
+.get {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
