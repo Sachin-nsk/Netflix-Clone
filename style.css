@@ -93,3 +93,67 @@ p {
     font-size: 1.5rem;
     color: whitesmoke;
 }
+
+.enjoy {
+    border-bottom: 10px solid #333;
+    padding: 2rem 0;
+}
+
+.enjoy-outer {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.enjoy-img {
+    position: relative;
+    z-index: 1;
+}
+
+.enjoy-animation {
+    position: absolute;
+    left: 75px;
+    top: 95px;
+    z-index: -1;
+}
+
+.enjoy-inner {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.downloading {
+    background: #000;
+    width: 60%;
+    height: 125px;
+    position: absolute;
+    top: 335px;
+    left: 125px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    padding: 0.7rem;
+    display: flex;
+}
+
+.downloading>img {
+    height: 100%;
+}
+
+.download-text {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-text>p {
+    color: #0066e3;
+}
+
+.download-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
