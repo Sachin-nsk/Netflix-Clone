@@ -171,7 +171,10 @@ p {
 
 .faq-outer li p {
     visibility: hidden;
-    position: absolute;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.1s ease-in;
+
 
 }
 
@@ -180,10 +183,26 @@ p {
 }
 
 .faq-outer h2 {
+
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .faq li:hover {
     background-color: #333333de;
+}
+
+.faq.active p {
+    max-width: 300px;
+}
+
+.faq-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 20px;
 }
