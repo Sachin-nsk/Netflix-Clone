@@ -145,6 +145,10 @@ p {
 }
 
 
+.faq {
+    border-bottom: 10px solid #333;
+}
+
 .faq-outer {
     display: flex;
     flex-direction: column;
@@ -205,4 +209,30 @@ p {
     justify-content: center;
     gap: 1rem;
     padding-bottom: 20px;
+}
+
+.footer {
+    padding: 10px 20px;
+    color: #ffffff55;
+    padding-bottom: 150px;
+}
+
+.footer p {
+    color: #ffffff55;
+    text-align: center;
+}
+
+.Lists {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Lists ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    text-decoration: underline;
 }
