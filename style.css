@@ -143,3 +143,47 @@ p {
     flex-direction: column;
     justify-content: center;
 }
+
+
+.faq-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.faq ul {
+    width: 60%;
+    margin: auto;
+    list-style-type: none;
+
+}
+
+.faq li {
+
+    border-bottom: 5px solid #000;
+    background: #333;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+.faq-outer li p {
+    visibility: hidden;
+    position: absolute;
+
+}
+
+.faq-inner {
+    margin-bottom: 20px;
+}
+
+.faq-outer h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq li:hover {
+    background-color: #333333de;
+}
